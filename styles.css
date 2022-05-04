@@ -1,0 +1,95 @@
+* {
+    font-family: arial;
+}
+.header {
+    text-align: center;
+    font-size: 60px;
+    transition: font-size .2s;
+    color: red;
+    text-shadow: black 0.8px 0.8px;
+    
+}
+.header:hover {
+    font-size: 70px;
+}
+.casino_header {
+    text-shadow: 3px 3px rgb(66, 64, 64);
+    font-size: 64px;
+    background-color: rgb(208, 204, 204);
+    border: black 2px solid;
+    text-align: center;
+    margin-top: 400px;
+}
+.clicker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: black 2px solid;
+  box-shadow: 2px 2px;
+}
+.i_need_space {
+    margin-bottom: 90px;
+}
+.patriot {
+    text-align: center;
+    font-style: italic; 
+}
+.earnings {
+    text-align: center;
+    font-weight: 600;
+}
+.profit {
+    color: green;
+}
+.text {
+    text-align: center;
+    font-style: italic;
+}
+.special_text {
+    color: green;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.casino_paragraph {
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 90px;
+}
+.gamble_input {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    font-size: 20px;
+    margin-bottom: 20px
+}
+.gamble_button {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 2px black solid;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+    transition: background-color .2s;
+}
+.gamble_button:hover {
+    background-color: rgb(183, 177, 177)
+}
+.gambling_results {
+    text-align: center;
+}
+.status {
+    font-size: 26px;
+    font-weight: 600;
+    
+}
+.gambling_winning_amount {
+    color: green;
+    font-weight: 900;
+    
+}

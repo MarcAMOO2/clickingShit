@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--JQuery - Google CDN-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-227904878-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-227904878-1');
+</script>
+    <script src="script.js"></script>
+    <title>Clicker Game</title>
+</head>
+<body>
+    <!-- <div class="spacebar" onkeypress="randomEvent()"> -->
+    <a href="./Pages/help.html"><button id="linkButton">Help?</button></a>
+    <h1 class="header">Make America Great Again</h1>
+    <p class="patriot">I am sick of how America has been rotten, click on donald trump to make money and eventually re-elect him as president. Good Luck!</p>
+
+    <div class="earnings">
+    <h2>Funds raised: <span class="profit" id="profit">0</span> Bucks</h2>
+    </div>
+    
+   <p class="text" id="text"></p>
+    <img class="clicker" src="./images/clicker_image_DT.jpg" width="450px" onclick="clickerFunction()">
+    <h1 class="casino_header">Casino</h1>
+    <p class="casino_paragraph">Welcome to the casino, here you can gamble your money and possibly earn a <span class="special_text">PROFIT!</span> But this comes with a risk... If you gamble and lose, you won't get that money back. So be careful with how much money you use, to get started, type an amount of money in the text box and press "Gamble".</p>
+    <h3 style="text-align:center">You have: <span style="color: green; text-align:center" id="gamble_money"></span> Bucks</h3>
+    <div class="gambling_results"><h1 class="status" id="WinOrLose"></h1><span class="gambling_winning_amount" id="status"></span></div>
+    <input name="gamble" type="text" id="Gamble" class="gamble_input" onblur="checkValue()">
+ 
+    <button class="gamble_button" onclick="gamble()">Gamble</button>
+</div>
+</body>
+</html>
